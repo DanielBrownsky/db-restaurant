@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brownsky Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>DB Restaurant</h2>
+
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">Dishes</a>
+            <a href="#about">About</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <img src="imgs/nigeria-jollof.webp" class="hero-image">
+            <div class="hero-content">
+                <h2>DB offers you</h2>
+                <h1>Fresh & Tasty Meals</h1>
+                <p>DB is a perfect place to enjoy the best of african food and nigerian food with excellent service, in comfotable atmospheric surroundings.</p>
+
+                <div class="hero-button">
+                    <a href="#menu" class="btn-view">View Menu</a>
+                    <a href="#booking" class="btn-book">Book a table</a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="dishes" id="dishes">
+        <div class="dishes-header">
+            <h2>Our Special Dishes</h2>
+            <p>Explore our curated selection of delicious and authentic Nigerian dishes, crafted with the finest ingredients.</p>
+        </div>
+        <div class="dishes-grid">
+            <div class="dish-item">
+                <img src="imgs/nigeria-dish.webp" alt="Dish 1">
+                <h3>Jollof Rice & Chicken</h3>
+                <p>Spicy jollof rice served with grilled chicken, a classic Nigerian favorite.</p>
+                <a href="#" class="view-details">View Details</a>
+                <a href="#" class="view-details">add to cart</a>
+            </div>
+            <div class="dish-item">
+                <img src="imgs/pounded-yam.webp" alt="Dish 2">
+                <h3>Pounded Yam & Egusi</h3>
+                <p>Traditional pounded yam served with a rich and flavorful Egusi soup.</p>
+                <a href="#" class="view-details">View Details</a>
+                <a href="#" class="view-details">add to cart</a>
+            </div>
+            <div class="dish-item">
+                <img src="imgs/suya-skewer.webp" alt="Dish 3">
+                <h3>Suya Skewers</h3>
+                <p>Grilled spiced meat skewers, a popular street food with a smoky flavor.</p>
+                <a href="#" class="view-details">View Details</a>
+                <a href="#" class="view-details">add to cart</a>
+            </div>
+            <div class="dish-item">
+                <img src="imgs/catfish.webp" alt="Dish 3">
+                <h3>Catfish Pepper Soup</h3>
+                <p>A hot and spicy soup made with fresh catfish, herbs, and spices for a rich flavor.</p>
+                <a href="#" class="view-details">View Details</a>
+                <a href="#" class="view-details">add to cart</a>
+            </div>
+            <div class="dish-item">
+                <img src="imgs/fufu-okra.webp" alt="Dish 8">
+                <h3>Okro Soup & Fufu</h3>
+                <p>A savory soup made with okra and spices, served with soft fufu for dipping.</p>
+                <a href="#" class="view-details">View Details</a>
+                <a href="#" class="view-details">add to cart</a>
+            </div>
+            <div class="dish-item">
+                <img src="imgs/ofada-rice.webp" alt="Dish 9">
+                <h3>Ofada Rice & Ayamase</h3>
+                <p>Locally sourced Ofada rice served with a spicy Ayamase sauce and assorted meat.</p>
+                <a href="#" class="view-details">View Details</a>
+                <a href="#" class="view-details">add to cart</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Us</h2>
+                <h3>why choose us</h3>
+                <p>
+                    DB Restaurant offers a unique dining experience with a focus on traditional Nigerian dishes made from fresh, local ingredients. Our mission is to provide an authentic taste of African cuisine while creating a warm and inviting atmosphere for our guests.
+                </p>
+                <p>
+                    Whether you’re looking to enjoy a family meal, a casual outing with friends, or a romantic dinner, DB Restaurant ensures that each dining experience is memorable. Join us and savor the flavors of Nigeria in a relaxing and comfortable setting.
+                </p>
+                <button class="about-button">Learn More</button>
+            </div>
+            <div class="about-image">
+                <img src="imgs/about-image.webp" alt="DB Restaurant Image">
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="menu-section" id="menu">
+        <h2>Our Menu</h2>
+        <p>Explore our diverse menu featuring traditional Nigerian flavors and more.</p>
+
+        <div class="menu-category">
+            <h3>Starters</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="imgs/suya-skewer.webp" alt="Suya">
+                    <div class="menu-details">
+                        <h4>Suya</h4>
+                        <p>Spicy meat skewer served with sliced onions and tomatoes.</p>
+                        <span class="price">₦1500</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="imgs/moimoi.webp" alt="Moi Moi">
+                    <div class="menu-details">
+                        <h4>Moi Moi</h4>
+                        <p>Steamed bean pudding, a classic side dish.</p>
+                        <span class="price">₦1000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-category">
+            <h3>Main Courses</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="imgs/nigeria-jollof.webp" alt="Jollof Rice">
+                    <div class="menu-details">
+                        <h4>Jollof Rice</h4>
+                        <p>Traditional rice dish cooked in tomato sauce, served with chicken.</p>
+                        <span class="price">₦5000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="imgs/OmaStyle-Bride-Nigerian-Soup-fufu-combination-700x407.jpg" alt="Pounded Yam & Egusi">
+                    <div class="menu-details">
+                        <h4>Pounded Yam & Egusi</h4>
+                        <p>Soft yam with savory egusi soup.</p>
+                        <span class="price">₦4000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-category">
+            <h3>Side Dishes</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="imgs/fried-dodo.webp" alt="Fried Plantains">
+                    <div class="menu-details">
+                        <h4>Fried Plantains</h4>
+                        <p>Sweet plantains, fried to golden perfection.</p>
+                        <span class="price">₦800</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="imgs/eba-ogbono.webp" alt="Eba">
+                    <div class="menu-details">
+                        <h4>Eba</h4>
+                        <p>Garri-based dish served with a variety of soups.</p>
+                        <span class="price">₦2500</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-category">
+            <h3>Specials</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="imgs/amala-ewedu.webp" alt="Amala and Ewedu">
+                    <div class="menu-details">
+                        <h4>Amala and Ewedu</h4>
+                        <p>A traditional Yoruba delicacy served with Ewedu soup and assorted meat.</p>
+                        <span class="price">₦3500</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="imgs/bitter-soup.webp" alt="Bitterleaf Soup">
+                    <div class="menu-details">
+                        <h4>Bitterleaf Soup</h4>
+                        <p>Rich and hearty soup made with bitterleaf, best paired with fufu.</p>
+                        <span class="price">₦3500</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="menu-category">
+            <h3>Drinks</h3>
+            <div class="menu-items">
+                <div class="menu-item">
+                    <img src="imgs/zobo.webp" alt="Zobo">
+                    <div class="menu-details">
+                        <h4>Zobo</h4>
+                        <p>A refreshing Nigerian drink made from hibiscus flowers.</p>
+                        <span class="price">₦700</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img src="imgs/palm-wine.webp" alt="Palm Wine">
+                    <div class="menu-details">
+                        <h4>Palm Wine</h4>
+                        <p>A traditional, naturally fermented drink made from palm sap.</p>
+                        <span class="price">₦800</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="review-section" id="review">
+        <h2>Customer Reviews</h2>
+        <p>See what our customers have to say about our delicious Nigerian cuisine!</p>
+
+        <div class="reviews">
+            <div class="review">
+                <img src="imgs/review-pic.jpg" alt="Jane Doe" class="review-img">
+                <div class="review-text">
+                    <p>"Absolutely loved the Jollof rice and chicken! Perfectly spiced and delicious."</p>
+                </div>
+                <div class="review-author">
+                    <h4>Precious oluwaseun</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review">
+                <img src="imgs/review-pic-2.jpg" alt="John Smith" class="review-img">
+                <div class="review-text">
+                    <p>"The Egusi soup and pounded yam were so authentic! Reminded me of home."</p>
+                </div>
+                <div class="review-author">
+                    <h4>Sam D Banj</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="review">
+                <img src="imgs/review-pic-3.jpg" alt="Amina Bello" class="review-img">
+                <div class="review-text">
+                    <p>"The Zobo drink was refreshing and perfectly made. Will definitely come back!"</p>
+                </div>
+                <div class="review-author">
+                    <h4>Oluwateniola</h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="order-section" id="order">
+        <h2>Order Your Favorite Dish</h2>
+        <p>Tell us what you'd like to order, and we'll prepare it for you!</p>
+
+        <form class="order-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="food-items">Food Items:</label>
+            <input type="text" id="food-items" name="food-items" placeholder="Enter the food items you want" required>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" min="1" required>
+
+            <label for="delivery-date">Delivery Date:</label>
+            <input type="date" id="delivery-date" name="delivery-date" required>
+
+            <label for="address">Delivery Address:</label><input type="text" id="address" name="address" placeholder="Enter delivery address"></label>
+
+            <label for="requests">Special Requests:</label>
+            <textarea id="requests" name="requests" placeholder="Any special requests?"></textarea>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>DB Restaurant</h2>
+                <p>Your destination for authentic Nigerian cuisine.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#dishes">Dishes</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#review">Reviews</a></li>
+                    <li><a href="#order">Order</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>
+                    <a href="tel:+234 915 294 5170"><i class="fas fa-phone"></i> +234 915 294 5170</a></p>
+                <p>
+                    <a href="mailto:ayekudaniel@gmail.com"><i class="fas fa-envelope"></i> contact: ayekudaniel@gmail.com</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/profile.php?id=100089259563907"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/AyekuDaniel?t=Ng5HsOSYAYNMlvXhe1iShQ&s=09"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/daniel_brownsky_/profilecard/?igsh=MXh2cXpmNDA2eTJ1Zw=="><i class="fab fa-instagram"></i></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 DB Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
